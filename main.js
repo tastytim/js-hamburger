@@ -15,9 +15,11 @@ const hamburger = document.querySelector(".hamburger-menu");
 
 
 bars.addEventListener("click" , function(){
-    hamburger.style.display = "inline";
+    // hamburger.style.display = "inline";
+    hamburger.classList.add("active");
 });
 
 times.addEventListener("click" , function(){
-    hamburger.style.display = "none";
+    // hamburger.style.display = "none";
+    hamburger.classList.remove("active");
 });
