@@ -15,9 +15,9 @@ const hamburger = document.querySelector(".hamburger-menu");
 
 
 bars.addEventListener("click" , function(){
-    hamburger.classList.add("close");
+    hamburger.style.display = "inline";
 });
 
 times.addEventListener("click" , function(){
-    hamburger.classList.remove("close");
+    hamburger.style.display = "none";
 });
